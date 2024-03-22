@@ -1,0 +1,18 @@
+version: "3"
+services:
+  app:
+    build: ./app
+    ports:
+      - "5050:5050"
+    container_name: app
+    volumes:
+      - ./app:/usr/src/app
+    command: flask run
+  bot:
+    build: ./bot
+    container_name: bot
+    volumes:
+      - ./bot:/usr/src/bot
+    depends_on:
+      - app
+    command: python main.py
