@@ -6,9 +6,10 @@
 
 ## Related Repositories
 
+- [Watering-IoT-Docker](https://github.com/hitto-hub/Watering-IoT-Docker) <- This repo
 - [Watering-Discord-Bot](https://github.com/hitto-hub/Watering-discord-bot)
 - [Watering-M5Stack](https://github.com/hitto-hub/M5StackWatering)
-- [Watering-Back](https://github.com/hitto-hub/Watering-back)
+- [Watering-Backend](https://github.com/hitto-hub/Watering-backend)
 
 ## Setup
 
