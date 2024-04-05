@@ -14,7 +14,7 @@ fi
 echo $SCRIPT_DIR
 # Clone the repositories
 git clone https://github.com/hitto-hub/Watering-discord-bot.git bot
-git clone https://github.com/hitto-hub/Watering-back.git app
+git clone https://github.com/hitto-hub/Watering-backend.git app
 
 # .env file for the Discord bot
 cp ./.env ./bot/.env
